@@ -1,0 +1,81 @@
+ body
+ {
+     margin: 0;
+     font-family: 'Bree Serif', serif;
+ }
+.cover
+{
+
+    width: 100%;
+    height: 430px;
+    padding: 60px;
+    background-image: url(https://s2.glbimg.com/6qQci7OUTmvcCtPU5z-6KP_SAMQ=/e.glbimg.com/og/ed/f/original/2018/05/30/water-melon-1652093_1280.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-bottom: 87px;
+    box-shadow: 0 3px 2px rgba(0, 0, 0, .5);
+    box-sizing: border-box;
+}
+.Title
+{
+    top: 30%;
+    color: rgb(216, 198, 198);
+    font-size: 2.5cm;
+    position: relative;
+    text-shadow: 1px 2px 1px rgb(160, 159, 159);
+}
+.sous-titre
+{
+    color: rgb(1, 1, 58);
+    font-size: 400%;
+    text-shadow: 1px 3px 2px rgba(0, 0, 0, .5);
+    margin-left: 30px;
+}
+
+.article1
+{
+    display: inline-block;
+    background-color:rgba(231, 231, 231, 0.904);
+    width:48%;
+    height: 350px;
+    padding:45px;
+    box-sizing: border-box;
+    overflow: hidden;
+    text-align: justify;
+    font-size: 1em ;
+    font-style: normal;
+
+}
+.article1:hover
+{
+  outline: 5px solid black;
+  outline-offset: -6px;
+  transition: all 0.5s;
+  
+}
+.article2
+{
+    display: inline-block;
+    background-color:rgba(54, 54, 54, 0.904);
+    color: rgb(250, 250, 241);
+    width:48%;
+    height: 350px;
+    padding:45px;
+    box-sizing: border-box;
+    overflow: hidden;
+    text-align: justify;
+}
+.article2:hover
+{
+  outline: 5px solid black;
+  outline-offset: -6px;
+  transition: all 0.5s;
+}
+.pol{
+    font-size: 170%;
+}
+.all{
+    width:80%;
+    margin: auto;
+}
